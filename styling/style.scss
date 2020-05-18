@@ -1,0 +1,17 @@
+$picX: auto;
+$picY: 800px;
+$BGcolor: #1b1b1b;
+
+#home {
+    background-color: blue($BGcolor);
+}
+
+.big-picture {
+    width: $picX;
+    height: $picY;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
